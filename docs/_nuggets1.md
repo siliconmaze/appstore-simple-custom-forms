@@ -180,12 +180,13 @@ class AuthComponent extends Component {
 
 =====
 
-Everything is wroking but page will not redirect
+In the end after days and says of trying many ways to use Authenticator, and withAuthenticator I always ended up in redirect nigtmare territory. 
+I have tried for weeks now, and to no avail. 
+I really think all I can do is resort to going back to tokens my own forms, and use Auth.xxx calls myself.
 
- {this.state.authState.redirect
-            ? (<Redirect to="/home" />)
-            : (<></>)
-          }
+Saturday night 00:37
+
+Back to the drawing board tomorrow.
 
 
 
